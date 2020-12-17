@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stup</string>
+    <string name="title_activity_buttom_navigation">MainActivity</string>
+    <string name="title_home">Conectare stup</string>
+    <string name="title_dashboard">Configuratie stup</string>
+    <string name="title_notifications">Login/Register/Logout</string>
+</resources>

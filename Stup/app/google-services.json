@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650197427906",
+    "project_id": "stup-7e596",
+    "storage_bucket": "stup-7e596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650197427906:android:420df34d8da0f83a21bd5b",
+        "android_client_info": {
+          "package_name": "com.example.stup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650197427906-8479cfpps1o4rm2c1p8cc04n29rhe13b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_-J8Wrpv9B4HT1OJKx3IqeOzzIKtH36g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650197427906-8479cfpps1o4rm2c1p8cc04n29rhe13b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+       android:id="@+id/login_window"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_group">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Login"
+            android:textColor="#FE5295"
+            android:textSize="50sp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Username"
+           android:textSize="20sp"
+           android:id="@+id/username_log"
+           />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Parola"
+           android:textSize="20sp"
+           android:id="@+id/parola"
+           />
+       <CheckBox
+           android:id="@+id/checkBoxSave"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Salveaza datele de autentificare"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_marginBottom="0dp"
+           />
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Login"
+           android:textSize="20sp"
+           android:id="@+id/log_btn"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:id="@+id/register_window"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_group">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/editTextCnfPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="15dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/register_btn"
+            android:text="Register"
+            android:textColor="#FE8392"
+            android:background="@color/cardview_shadow_start_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:id="@+id/Cont_log"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_group">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/setari_btn"
+            android:text="Setari cont"
+            android:textColor="#FE8392"
+            android:background="@color/cardview_shadow_start_color"/>
+
+    </LinearLayout>
+
+
+
+<LinearLayout
+    android:id="@+id/input_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginBottom="50dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn_open"
+        android:hint="Login"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"
+        android:visibility="visible"
+        android:background="@color/cardview_shadow_start_color"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_btn_open"
+        android:hint="Register"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"
+        android:visibility="visible"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout_btn"
+        android:hint="Logout"
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"
+        android:visibility="visible"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+</LinearLayout>
+
+</RelativeLayout>
